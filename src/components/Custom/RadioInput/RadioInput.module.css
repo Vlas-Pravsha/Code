@@ -1,0 +1,33 @@
+.radioWrapper input[type="radio"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  border: 2px solid #6534ff;
+}
+
+.radioWrapper input[type="radio"]:checked {
+  border-radius: 100px;
+  border: #6534ff 7px solid;
+  background-color: #fff;
+}
+
+.text {
+  color: #050510;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.q {
+  display: flex;
+  gap: 12px;
+  margin-left: 25px;
+}
+.SvgWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,67 @@
+.wrap {
+  background-color: #fff;
+}
+.backColor {
+  background: #f7f7f8;
+  padding: 16px 50px 0;
+}
+.photo {
+  widows: 104px;
+  height: 104px;
+  border-radius: 64px;
+}
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: #050510;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 24px;
+}
+.position {
+  color: #55555c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+.email {
+  color: #050510;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.phone {
+  color: #050510;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.svg {
+  padding: 10px 0 14px;
+}
+.contactsWrap {
+  padding: 30px 50px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+.emailWrap {
+  display: inline-flex;
+  gap: 12px;
+}
+.starSvg {
+  display: inline;
+}
+.phoneWrap {
+  display: inline-flex;
+  gap: 12px;
+}

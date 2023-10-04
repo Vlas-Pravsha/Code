@@ -1,0 +1,38 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: #f7f7f8;
+  border: none;
+  min-height: 24px;
+  padding: 8px 12px;
+  gap: 8px;
+}
+.input {
+  width: 100%;
+  background: #f7f7f8;
+  border: none;
+}
+.input::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #a7a7a5;
+}
+.input:focus {
+  outline: none;
+}
+.search {
+  background-image: url(../../assets/img/search.svg);
+  height: 24px;
+  width: 24px;
+}
+.list {
+  background-image: url(../../assets/img/list.svg);
+  height: 24px;
+  width: 24px;
+}
+.list:hover {
+  cursor: pointer;
+}

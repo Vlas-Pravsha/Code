@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.center {
+  height: calc(100% - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loop {
+  height: 56px;
+  widows: 56px;
+}
+.title {
+  color: #050510;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+.text {
+  color: #97979b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}

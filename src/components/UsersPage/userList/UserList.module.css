@@ -1,0 +1,9 @@
+.skeletonWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+.wrapper {
+  height: calc(100% - 140px);
+}
