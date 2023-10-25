@@ -14,7 +14,6 @@ export interface UserItem {
   id: number;
   email: string;
   position_id: number;
-  filteredUsers: UserItem[];
 }
 
 const UserList = ({ usersData }: UserListProps) => {
