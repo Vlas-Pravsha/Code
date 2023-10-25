@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useMemo } from "react";
-import { User } from "../userList/UserList";
 import s from "./Category.module.css";
 
 interface CategoryProps {

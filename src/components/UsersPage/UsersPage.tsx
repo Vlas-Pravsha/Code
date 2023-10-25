@@ -5,11 +5,11 @@ import { Input } from "../Input/Input";
 import { Label } from "../Label/Label";
 import { UserSkeleton } from "../UserSkeleton/UserSkeleton";
 import { Category } from "./Category/Category";
-import UserList, { User } from "./userList/UserList";
+import UserList, { UserItem } from "./userList/UserList";
 import "react-loading-skeleton/dist/skeleton.css";
 
 interface UsersPageProps {
-  usersData: User[];
+  usersData: UserItem[];
   categoryData: string[];
 }
 

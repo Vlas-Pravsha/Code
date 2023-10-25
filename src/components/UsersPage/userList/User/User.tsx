@@ -1,12 +1,13 @@
+import Image from "next/image";
 import React from "react";
-import { User } from "../UserList";
+import { UserItem } from "../UserList";
 import s from "./User.module.css";
 
-const User = ({ photo, name, position, id }: User) => {
+const User = ({ photo, name, position, id }: UserItem) => {
   return (
     <div className={s.user}>
       <div className={s.wrap}>
-        <img
+        <Image
           className={s.img}
           src={photo}
           width="50"

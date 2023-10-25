@@ -1,14 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Modal } from "../Modal/Modal";
-import { User } from "../UsersPage/userList/UserList";
+import { UserItem } from "../UsersPage/userList/UserList";
 import s from "./Input.module.css";
 
 interface InputProps {
   placeholder?: string;
   searchValue?: string;
   onChangeSearchValue?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  usersData: User[];
+  usersData: UserItem[];
   handleSelectedOptionChange: (value: string) => void;
 }
 

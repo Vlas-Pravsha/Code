@@ -5,22 +5,22 @@ import User from "./User/User";
 import s from "./UserList.module.css";
 
 interface UserListProps {
-  usersData: User[];
+  usersData: UserItem[];
 }
-export interface User {
+export interface UserItem {
   photo: string;
   name: string;
   position: string;
   id: number;
   email: string;
   position_id: number;
-  filteredUsers: User[];
+  filteredUsers: UserItem[];
 }
 
 const UserList = ({ usersData }: UserListProps) => {
   return (
     <div className={s.wrapper}>
-      {usersData.map((item: User) => (
+      {usersData.map((item: UserItem) => (
         <Link href={`/about/${item.id}`} key={item.id}>
           <User {...item} />
         </Link>

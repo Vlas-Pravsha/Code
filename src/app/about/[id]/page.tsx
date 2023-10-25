@@ -1,5 +1,6 @@
 import { getUser } from "@/api/getData";
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import s from "./AboutUser.module.css";
@@ -41,7 +42,13 @@ const About = async ({ params: { id } }: Props) => {
         </div>
         <div className={s.titleWrap}>
           <div>
-            <img src={userData.photo} alt="photo" className={s.photo} />
+            <Image
+              src={userData.photo}
+              alt="photo"
+              className={s.photo}
+              width={104}
+              height={104}
+            />
           </div>
           <div className={s.name}>{userData.name}</div>
           <div className={s.position}>{userData.position}</div>

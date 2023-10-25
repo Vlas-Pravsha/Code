@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { RadioInput } from "../Custom/RadioInput/RadioInput";
-import { User } from "../UsersPage/userList/UserList";
+import { UserItem } from "../UsersPage/userList/UserList";
 import s from "./Modal.module.css";
 
 const data = [
